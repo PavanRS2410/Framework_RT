@@ -24,4 +24,9 @@ public class ContactTest
 	{
 		System.out.println("execute modifyContactTest");
 	}
+	@Test(groups = "smokeTest")
+	public void deleteContactTest()
+	{
+		System.out.println("execute deleteContactTest");
+	}
 }
